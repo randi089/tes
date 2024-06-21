@@ -1,0 +1,63 @@
+.btn {
+    background-color: #FF0088;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, .2);
+    margin-right: 10px;
+  color: #000;
+  background-color: #ff0088;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+  transition:
+    all 1s,
+    ease-in-out 100ms;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  background: linear-gradient(0.3turn, #ff0088, #743ad5);
+}
+
+.btn2 {
+    background-color: #000;
+    border-radius: 10px;
+    border: 1px solid #FF0088;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, .2);
+  transition:
+    all 1s,
+    ease-in-out 100ms;
+  background-color: #000;
+  border-radius: 10px;
+  border: 2px solid #ff0088;
+  border-image-slice: 1;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn2:hover {
+  transform: scale(1.2);
+  border-image-source: linear-gradient(to left, #743ad5, #ff0088);
+}
+
+.hp {
+  margin: 20px 0;
+  border: 1px solid green;
+  width: 250px;
+  height: 10px;
+  border-radius: 2px 5px 5px 2px;
+  background-color: red;
+}
+
+.bar {
+  width: 100%;
+  height: 10px;
+  background-color: green;
+}
+
+.img {
+  width: 200px;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+}
